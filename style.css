@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)
-    /* background-color: #f5f5f5e5; */
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        /* background-color: #f5f5f5e5; */
 }
 
 header {
@@ -57,7 +57,8 @@ header h1 {
 .contact dd {
     margin: 4px 0 12px 16px;
 }
-.button a {
+
+.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ffffff;
@@ -66,15 +67,19 @@ header h1 {
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 .button a:hover {
-  background-color: darkviolet; /* меняем цвет при наведении */
+    background-color: darkviolet;
 }
+
 a:hover {
-  background-color: darkviolet; /* меняем цвет при наведении */
+    background-color: darkviolet;
+    border-radius: 5px;
 }
