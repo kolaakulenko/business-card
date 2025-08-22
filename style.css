@@ -1,11 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-        /* background-color: #f5f5f5e5; */
 }
 
 header {
-    /* background-color: #874ee4; */
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -37,7 +35,6 @@ header h1 {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    /* background-color: #fc0606; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
